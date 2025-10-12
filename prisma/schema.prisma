@@ -1,0 +1,38 @@
+generator client {
+  provider = "prisma-client-js"
+  binaryTargets = ["native"]
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id Int @id @default(autoincrement())
+  telegramId Int @unique
+  username String?
+  createdAt DateTime @default(now())
+  homework Homework[]
+  schedule Schedule[]
+}
+
+model Homework {
+  id Int @id @default(autoincrement())
+  subject String
+  text String
+  deadline DateTime
+  done Boolean @default(false)
+  userId Int @unique
+  user User @relation(fields: [userId], references: [id])
+  createdAt DateTime @default(now())
+}
+
+model Schedule {
+  id Int @id @default(autoincrement())
+  userId Int @unique
+  user User @relation(fields: [userId], references: [id])
+  dayOfWeek Int
+  subject String
+  time String?
+}

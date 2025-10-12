@@ -1,0 +1,20 @@
+{
+  "name": "two_version",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/bot/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.17.0",
+    "dotenv": "^17.2.3",
+    "node-cron": "^4.2.1",
+    "nodemon": "^3.1.10",
+    "prisma": "^6.17.0",
+    "telegraf": "^4.16.3"
+  }
+}
