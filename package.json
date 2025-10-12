@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "nodemon src/bot/index.js",
     "dev": "nodemon src/bot/index.js"
   },
   "author": "",
