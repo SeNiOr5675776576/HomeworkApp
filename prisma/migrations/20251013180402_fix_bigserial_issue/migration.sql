@@ -1,7 +1,7 @@
 -- CreateTable
 CREATE TABLE "User" (
-    "id" SERIAL NOT NULL,
-    "telegramId" INTEGER NOT NULL,
+    "id" BIGSERIAL NOT NULL,
+    "telegramId" BIGINT NOT NULL,
     "username" TEXT,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
 
@@ -10,12 +10,12 @@ CREATE TABLE "User" (
 
 -- CreateTable
 CREATE TABLE "Homework" (
-    "id" SERIAL NOT NULL,
+    "id" BIGSERIAL NOT NULL,
     "subject" TEXT NOT NULL,
     "text" TEXT NOT NULL,
     "deadline" TIMESTAMP(3) NOT NULL,
     "done" BOOLEAN NOT NULL DEFAULT false,
-    "userId" INTEGER NOT NULL,
+    "userId" BIGINT NOT NULL,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
 
     CONSTRAINT "Homework_pkey" PRIMARY KEY ("id")
@@ -23,19 +23,19 @@ CREATE TABLE "Homework" (
 
 -- CreateTable
 CREATE TABLE "Schedule" (
-    "id" SERIAL NOT NULL,
+    "id" BIGSERIAL NOT NULL,
     "dayOfWeek" INTEGER NOT NULL,
     "subject" TEXT NOT NULL,
     "time" TEXT NOT NULL,
-    "userId" INTEGER NOT NULL,
+    "userId" BIGINT NOT NULL,
 
     CONSTRAINT "Schedule_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
 CREATE TABLE "Feedback" (
-    "id" SERIAL NOT NULL,
-    "userId" INTEGER NOT NULL,
+    "id" BIGSERIAL NOT NULL,
+    "userId" BIGINT NOT NULL,
     "text" TEXT NOT NULL,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
 
