@@ -32,17 +32,27 @@ CREATE TABLE "Schedule" (
     CONSTRAINT "Schedule_pkey" PRIMARY KEY ("id")
 );
 
+-- CreateTable
+CREATE TABLE "Feedback" (
+    "id" SERIAL NOT NULL,
+    "userId" INTEGER NOT NULL,
+    "text" TEXT NOT NULL,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+    CONSTRAINT "Feedback_pkey" PRIMARY KEY ("id")
+);
+
 -- CreateIndex
 CREATE UNIQUE INDEX "User_telegramId_key" ON "User"("telegramId");
 
 -- CreateIndex
 CREATE UNIQUE INDEX "Homework_userId_key" ON "Homework"("userId");
 
--- CreateIndex
-CREATE UNIQUE INDEX "Schedule_userId_key" ON "Schedule"("userId");
-
 -- AddForeignKey
 ALTER TABLE "Homework" ADD CONSTRAINT "Homework_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "Schedule" ADD CONSTRAINT "Schedule_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "Feedback" ADD CONSTRAINT "Feedback_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
