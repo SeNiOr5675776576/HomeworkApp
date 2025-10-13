@@ -1,0 +1,198 @@
+[2025-10-13T15:08:32.400Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:08:45.739Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:12:44.479Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:12:48.189Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:13:00.730Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:13:09.070Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:13:57.123Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:14:47.157Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:14:47.158Z] [uncaughtException] ReferenceError: procces is not defined
+    at process.<anonymous> (file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/index.js:90:16)
+    at process.emit (node:events:519:28)
+    at emitUnhandledRejection (node:internal/process/promises:252:13)
+    at throwUnhandledRejectionsMode (node:internal/process/promises:388:19)
+    at processPromiseRejections (node:internal/process/promises:475:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:106:32)
+
+[2025-10-13T15:14:50.492Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:14:54.464Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:16:21.563Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:16:21.564Z] [uncaughtException] TypeError: Cannot read properties of undefined (reading 'exit')
+    at restartBot (file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/feature/restart-bot.js:3:13)
+    at process.<anonymous> (file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/index.js:90:5)
+    at process.emit (node:events:519:28)
+    at emitUnhandledRejection (node:internal/process/promises:252:13)
+    at throwUnhandledRejectionsMode (node:internal/process/promises:388:19)
+    at processPromiseRejections (node:internal/process/promises:475:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:106:32)
+
+[2025-10-13T15:16:30.679Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:17:51.742Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:17:51.742Z] [uncaughtException] TypeError: Cannot read properties of undefined (reading 'exit')
+    at restartBot (file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/feature/restart-bot.js:3:13)
+    at process.<anonymous> (file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/index.js:90:5)
+    at process.emit (node:events:519:28)
+    at emitUnhandledRejection (node:internal/process/promises:252:13)
+    at throwUnhandledRejectionsMode (node:internal/process/promises:388:19)
+    at processPromiseRejections (node:internal/process/promises:475:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:106:32)
+
+[2025-10-13T15:17:58.179Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:18:28.892Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:18:30.622Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:18:36.973Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:18:38.391Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:18:42.615Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:18:48.723Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:18:51.879Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:22:13.166Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:22:14.100Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:22:18.265Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:22:20.716Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:22:22.152Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:24:34.000Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:25:18.472Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:25:20.261Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:25:23.733Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:25:38.804Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:25:50.931Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:26:16.768Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:27:15.067Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:28:56.608Z] [unhandledRejection] Error: 400: Bad Request: BOT_COMMAND_INVALID
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-10-13T15:30:01.463Z] [Telegraf (message)] PrismaClientInitializationError: 
+Invalid `prisma.user.upsert()` invocation:
+
+
+User was denied access on the database `(not available)`
+    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:7568)
+    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
+    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
+    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
+    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/index.js:40:5
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+
+[2025-10-13T15:30:37.836Z] [Telegraf (message)] PrismaClientInitializationError: 
+Invalid `prisma.user.upsert()` invocation:
+
+
+User was denied access on the database `(not available)`
+    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:7568)
+    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
+    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
+    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
+    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/index.js:41:5
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+

@@ -14,6 +14,7 @@ model User {
   createdAt DateTime @default(now())
   homework Homework[]
   schedule Schedule[]
+  feedback Feedback[]
 }
 
 model Homework {
@@ -34,4 +35,12 @@ model Schedule {
   time String
   userId Int @unique
   user User @relation(fields: [userId], references: [id])
+}
+
+model Feedback {
+  id Int @id @default(autoincrement())
+  userId Int @unique
+  user User @relation(fields: [userId], references: [id])
+  text String
+  createdAt DateTime @default(now())
 }

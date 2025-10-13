@@ -1,6 +1,7 @@
 import fs from "fs";
 
-export default function logError(error, sourse="unknown", admin, bot){
+export default function logError(error, sourse="unknown", bot){
+    const admin = process.env.ID_ADMIN
     const timestap = new Date().toISOString();
     const message = `[${timestap}] [${sourse}] ${error.stack || error}\n\n`
 
