@@ -100,7 +100,7 @@ schedule.on("text", async (ctx) => {
 
         const user = await prisma.user.findUnique({where:{telegramId: ctx.from.id}})
 
-        const data = ctx.session.schedule.flat().map(items => ({userId: user.id, ...items}))
+        const data = ctx.session.schedule.flat().map(items => ({...items, userId: user.id}))
 
         await prisma.schedule.deleteMany({where: {userId: user.id}})
 
