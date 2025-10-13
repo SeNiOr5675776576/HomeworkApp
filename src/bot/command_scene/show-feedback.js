@@ -15,9 +15,9 @@ export default function showFeedback(bot){
         if (!feedbacks) return ctx.reply("📭 Отзывов пока нет");
 
         const text = feedbacks.map((e, i) => {
-            `${e.user.username || e.user.telegramId}\n💬 ${e.text}\n🕒 ${e.createdAt.toLocaleString()}`
+            `${i+1}. ${e.user.username || e.user.telegramId}\n💬 ${e.text}\n🕒 ${e.createdAt.toLocaleString()}`
         }).join("\n\n");
 
-        ctx.reply(`📬 Отзывы пользователей: \n\n${text}`, {parse_mode: "Markdown"});
+        return ctx.reply(`📬 Отзывы пользователей: \n\n${text}`, {parse_mode: "Markdown"});
     });
 };
