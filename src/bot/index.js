@@ -55,6 +55,12 @@ bot.start(async (ctx) => {
     `);
 });
 
+bot.command("stop", async (ctx) => {
+    if (ctx.scene.current) await ctx.scene.leave();
+    ctx.session = {};
+    await ctx.reply("Команда остановлена")
+})
+
 // Глобальная обработка ошибок
 bot.catch((err, ctx) => {
     logError(err, `Telegraf (${ctx.updateType})`, bot)
