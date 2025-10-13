@@ -33,7 +33,7 @@ model Schedule {
   dayOfWeek Int
   subject String
   time String
-  userId Int @unique
+  userId Int
   user User @relation(fields: [userId], references: [id])
 }
 

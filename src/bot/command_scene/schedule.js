@@ -73,13 +73,15 @@ schedule.on("text", async (ctx) => {
 
             const user = await prisma.user.findUnique({where:{telegramId: ctx.from.id}})
 
-            const data = ctx.session.schedule.flat().map(items => ({userId: user.id, ...items}))
-
             await prisma.schedule.deleteMany({where: {userId: user.id}})
 
-            await prisma.schedule.createMany({
-                data: data
-            });
+            const data = ctx.session.schedule.flat().map(items => ({...items, userId: user.id}))
+
+            for (const item of data){
+                await prisma.schedule.create({
+                    data: item
+                })
+            }
 
             ctx.reply("✅ Отлично! Расписание сохранено.\nТеперь ты можешь посмотреть его командой /showschedule");
             ctx.session = {};

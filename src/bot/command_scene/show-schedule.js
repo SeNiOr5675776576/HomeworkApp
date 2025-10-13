@@ -9,6 +9,6 @@ export default function showSchedule(bot){
             where: {userId: user.id},
         });
 
-        ctx.reply(assemblyScheduleLine(schedule))
+        return ctx.reply(assemblyScheduleLine(schedule))
     });
 }

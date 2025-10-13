@@ -196,3 +196,293 @@ User was denied access on the database `(not available)`
     at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
     at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
 
+[2025-10-13T15:59:27.015Z] [Telegraf (message)] PrismaClientKnownRequestError: 
+Invalid `prisma.schedule.createMany()` invocation:
+
+
+Unique constraint failed on the fields: (`userId`)
+    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:7268)
+    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
+    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
+    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
+    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/schedule.js:80:13
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+
+[2025-10-13T16:00:50.668Z] [Telegraf (message)] PrismaClientKnownRequestError: 
+Invalid `prisma.schedule.createMany()` invocation:
+
+
+Unique constraint failed on the fields: (`userId`)
+    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:7268)
+    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
+    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
+    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
+    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/schedule.js:80:13
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+
+[2025-10-13T16:02:12.968Z] [Telegraf (message)] PrismaClientKnownRequestError: 
+Invalid `prisma.schedule.createMany()` invocation:
+
+
+Unique constraint failed on the fields: (`userId`)
+    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:7268)
+    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
+    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
+    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
+    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/schedule.js:80:13
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+
+[2025-10-13T16:02:47.485Z] [Telegraf (message)] PrismaClientKnownRequestError: 
+Invalid `prisma.schedule.createMany()` invocation:
+
+
+Unique constraint failed on the fields: (`userId`)
+    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:7268)
+    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
+    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
+    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
+    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/schedule.js:80:13
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+
+[2025-10-13T16:03:34.301Z] [Telegraf (message)] PrismaClientKnownRequestError: 
+Invalid `prisma.schedule.createMany()` invocation:
+
+
+Unique constraint failed on the fields: (`userId`)
+    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:7268)
+    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
+    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
+    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
+    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/schedule.js:80:13
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+
+[2025-10-13T16:06:35.659Z] [Telegraf (message)] PrismaClientValidationError: 
+Invalid `prisma.schedule.upsert()` invocation:
+
+{
+  where: {
+    userId_dayOfWeek_subject: {
+    ~~~~~~~~~~~~~~~~~~~~~~~~
+      userId: 1678036065,
+      dayOfWeek: 1,
+      subject: "мат"
+    },
+?   id?: Int,
+?   userId?: Int,
+?   AND?: ScheduleWhereInput | ScheduleWhereInput[],
+?   OR?: ScheduleWhereInput[],
+?   NOT?: ScheduleWhereInput | ScheduleWhereInput[],
+?   dayOfWeek?: IntFilter | Int,
+?   subject?: StringFilter | String,
+?   time?: StringFilter | String,
+?   user?: UserScalarRelationFilter | UserWhereInput
+  },
+  create: {
+    userId: 1678036065,
+    dayOfWeek: 1,
+    subject: "мат",
+    time: "8:00"
+  },
+  update: {
+    time: "8:00"
+  }
+}
+
+Unknown argument `userId_dayOfWeek_subject`. Available options are marked with ?.
+    at Nn (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:29:1363)
+    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6911)
+    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
+    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
+    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
+    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/schedule.js:81:17
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+
+[2025-10-13T16:25:34.102Z] [Telegraf (message)] PrismaClientKnownRequestError: 
+Invalid `prisma.schedule.createMany()` invocation:
+
+
+Unique constraint failed on the fields: (`userId`)
+    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:7268)
+    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
+    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
+    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
+    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/schedule.js:80:13
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+
+[2025-10-13T16:27:59.549Z] [Telegraf (message)] PrismaClientValidationError: 
+Invalid `prisma.schedule.createMany()` invocation:
+
+{
+  data: {
+    user: {
+      connect: {
+        id: 1
+      }
+    },
+    subject: undefined,
+    time: undefined,
++   dayOfWeek: Int
+  }
+}
+
+Argument `dayOfWeek` is missing.
+    at Nn (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:29:1363)
+    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6911)
+    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
+    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
+    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
+    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/schedule.js:80:13
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+
+[2025-10-13T16:30:59.133Z] [Telegraf (message)] PrismaClientValidationError: 
+Invalid `prisma.schedule.createMany()` invocation:
+
+{
+  data: {
+    userId: 1,
+    subject: undefined,
+    time: undefined,
++   dayOfWeek: Int
+  }
+}
+
+Argument `dayOfWeek` is missing.
+    at Nn (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:29:1363)
+    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6911)
+    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
+    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
+    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
+    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/schedule.js:80:13
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+
+[2025-10-13T16:33:01.898Z] [Telegraf (message)] PrismaClientKnownRequestError: 
+Invalid `prisma.schedule.createMany()` invocation:
+
+
+Unique constraint failed on the fields: (`userId`)
+    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:7268)
+    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
+    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
+    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
+    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/schedule.js:80:13
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+
+[2025-10-13T16:36:04.566Z] [Telegraf (message)] PrismaClientKnownRequestError: 
+Invalid `prisma.schedule.createMany()` invocation:
+
+
+Unique constraint failed on the fields: (`userId`)
+    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:7268)
+    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
+    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
+    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
+    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/schedule.js:80:13
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+
+[2025-10-13T16:36:46.618Z] [Telegraf (message)] PrismaClientKnownRequestError: 
+Invalid `prisma.schedule.createMany()` invocation:
+
+
+Unique constraint failed on the fields: (`userId`)
+    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:7268)
+    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
+    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
+    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
+    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/schedule.js:80:13
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+
+[2025-10-13T16:38:57.696Z] [Telegraf (message)] PrismaClientUnknownRequestError: 
+Invalid `prisma.user.upsert()` invocation:
+
+
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(Error { kind: ToSql(0), cause: Some(Error { kind: ConversionError("Unable to fit integer value '5455027469' into an INT4 (32-bit signed integer)."), original_code: None, original_message: None }) }), transient: false })
+    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:7458)
+    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
+    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
+    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
+    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/index.js:41:5
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+
+[2025-10-13T16:38:57.699Z] [Telegraf (message)] PrismaClientUnknownRequestError: 
+Invalid `prisma.user.upsert()` invocation:
+
+
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(Error { kind: ToSql(0), cause: Some(Error { kind: ConversionError("Unable to fit integer value '5455027469' into an INT4 (32-bit signed integer)."), original_code: None, original_message: None }) }), transient: false })
+    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:7458)
+    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
+    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
+    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
+    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/index.js:41:5
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+
+[2025-10-13T16:39:30.429Z] [Telegraf (message)] PrismaClientKnownRequestError: 
+Invalid `prisma.schedule.create()` invocation:
+
+
+Unique constraint failed on the fields: (`userId`)
+    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:7268)
+    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
+    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
+    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
+    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/schedule.js:81:17
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+
