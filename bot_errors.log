@@ -486,3 +486,84 @@ Unique constraint failed on the fields: (`userId`)
     at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
     at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
 
+[2025-10-14T12:55:35.029Z] [unhandledRejection] TypeError: Cannot read properties of undefined (reading 'message')
+    at stopMiddleware (file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/middleware/stop.js:2:13)
+    at file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/index.js:35:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:345:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+
+[2025-10-14T12:56:35.922Z] [Telegraf (message)] TypeError: Cannot read properties of undefined (reading 'leave')
+    at stopMiddleware (file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/middleware/stop.js:3:25)
+    at execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:23)
+    at /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:27
+    at execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:23)
+    at /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:27
+    at /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/session.js:104:19
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+
+[2025-10-14T12:59:17.918Z] [unhandledRejection] TypeError: Cannot read properties of undefined (reading 'message')
+    at stopMiddleware (file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/middleware/stop.js:2:13)
+    at file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/index.js:26:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:345:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+
+[2025-10-14T12:59:23.709Z] [unhandledRejection] TypeError: Cannot read properties of undefined (reading 'message')
+    at stopMiddleware (file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/middleware/stop.js:2:13)
+    at file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/index.js:26:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:345:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+
+[2025-10-14T13:19:52.271Z] [Telegraf (message)] ReferenceError: ctx is not defined
+    at isValidSchedule (file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/validation/vaid-schedule.js:4:9)
+    at file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/schedule.js:17:14
+    at /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:165:111
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+
+[2025-10-14T13:20:25.631Z] [Telegraf (message)] ReferenceError: ctx is not defined
+    at isValidSchedule (file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/validation/vaid-schedule.js:4:9)
+    at file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/schedule.js:17:14
+    at /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:165:111
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+
+[2025-10-15T13:46:24.534Z] [Telegraf (message)] TypeError: Cannot read properties of undefined (reading 'current')
+    at stopMiddleware (file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/middleware/stop.js:2:27)
+    at /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:397:28
+    at /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:165:111
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+
+[2025-10-15T15:06:00.346Z] [Telegraf (message)] TypeError: Cannot read properties of undefined (reading 'leave')
+    at file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/index.js:26:21
+    at /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:397:28
+    at /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:165:111
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/session.js:104:13
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+

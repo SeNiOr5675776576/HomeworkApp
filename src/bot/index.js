@@ -10,6 +10,7 @@ import remaindersHomework from "./cron/remainders-hw.js";
 import logError from "./feature/log-error.js";
 import restartBot from "./feature/restart-bot.js";
 import feedback from "./command_scene/feedback.js";
+import stopMiddleware from "./middleware/stop.js";
 
 // Подключение dotenv конфига
 dotenv.config();
@@ -17,15 +18,24 @@ dotenv.config();
 // Создание бота
 const bot = new Telegraf(process.env.BOT_TOKEN);
 
+// Подключение session
+bot.use(session());
+
+// Глобальная команда stop
+bot.command("stop", async (ctx) => {
+    await ctx.scene?.leave();
+    ctx.session = {}
+    return ctx.reply("Команда остановлена!")
+});
+
 // Подключение сцен
 const stage = new Scenes.Stage([addHomework, deleteHomework, doneHomework, schedule, feedback]);
-
-bot.use(session());
 bot.use(stage.middleware());
 
 // Меню команд
 bot.telegram.setMyCommands([
     { command: "start", description: "👋 Начало работы" },
+    { command: "stop", description: "❌ Останавивает команду"},
     { command: "add", description: "➕ Добавить домашнее задание" },
     { command: "delete", description: "🗑️ Удалить домашнее задание" },
     { command: "done", description: "✅ Отметить выполненое задание" },
@@ -39,9 +49,9 @@ bot.telegram.setMyCommands([
 bot.start(async (ctx) => {
     const {id, username} = ctx.from
     await prisma.user.upsert({
-        where: {telegramId: id},
+        where: {telegramId: BigInt(id)},
         update: {},
-        create: {telegramId: id, username},
+        create: {telegramId: BigInt(id), username},
     });
     ctx.reply(`
     Привет, ${username || "ученик"}! 👋\n\nЯ - твой учебный помощник 📚\n\n✨ С моей помощью ты сможешь:
@@ -54,12 +64,6 @@ bot.start(async (ctx) => {
     • Оставить отзыв (/feedback)\n\nА ещё я каждый день буду напоминать тебе о сегодняшнем расписании и о домашке на завтра 😎\n\nНу что начнём? Добавь расписание и домашку, чтобы я сразу мог напомнить тебе обо всём завтра 🤓
     `);
 });
-
-bot.command("stop", async (ctx) => {
-    if (ctx.scene.current) await ctx.scene.leave();
-    ctx.session = {};
-    await ctx.reply("Команда остановлена")
-})
 
 // Глобальная обработка ошибок
 bot.catch((err, ctx) => {

@@ -9,7 +9,7 @@ feedback.enter((ctx) => {
 
 feedback.on("text", async (ctx) => {
     try {
-        const user = await prisma.user.findUnique({where: {telegramId: ctx.from.id}})
+        const user = await prisma.user.findUnique({where: {telegramId: BigInt(ctx.from.id)}})
         if (!user) return ctx.reply(`❌ Пользователь не найдет. Используй команду /start`);
 
         await prisma.feedback.create({
@@ -23,8 +23,8 @@ feedback.on("text", async (ctx) => {
         ctx.scene.leave()        
     }
     catch (err) {
-        console.log("Ошибка при сохранении отзыва:", err)
-        ctx.reply("⚠️ Произошла ошибка при сохранении. Пожалуйста повторите попытку позже.")
+        console.error("Ошибка при сохранении отзыва:", err)
+        await ctx.reply("❌ Произошла ошибка при сохранении. Пожалуйста повторите попытку позже!")
     }
 })
 

@@ -2,25 +2,31 @@ import { prisma } from "../../db/prisma.js";
 
 export default function listHomework(bot){
     bot.command("list", async (ctx) => {
-        const user = await prisma.user.findUnique({
-            where: {telegramId: ctx.from.id},
-            include: {homework: true},
-        })
+        try {
+            const user = await prisma.user.findUnique({
+                where: {telegramId: BigInt(ctx.from.id)},
+                include: {homework: true},
+            })
 
-        if (!user || user.homework.length == 0){
-            return ctx.reply("У тебя нет домашних заданий. 😎")
+            if (!user || user.homework.length == 0){
+                return ctx.reply("У тебя нет домашних заданий. 😎")
+            }
+
+            const options = {
+                year: "numeric",
+                month: "numeric",
+                day: "numeric",
+            }
+
+            const homeworks = user.homework.map((e, i) => 
+                `${i + 1}. ${e.subject}: ${e.text}, до ${e.deadline.getFullYear()}-${e.deadline.getMonth()+1}-${e.deadline.getDate()} ${e.done? "✅" : "❌"}`
+            ).join("\n");
+
+            ctx.reply(`📚 Твои домашние задания:\n${homeworks}`);
         }
-
-        const options = {
-            year: "numeric",
-            month: "numeric",
-            day: "numeric",
+        catch (err){
+            console.error("❌ Ошибка при открытии списка домашних заданий: ", err)
+            await ctx.reply("❌ Произошла ошибка при открытии списка домашних заданий. Пожалуйста повторите попытку позже!")
         }
-
-        const homeworks = user.homework.map((e, i) => 
-            `${i + 1}. ${e.subject}: ${e.text}, до ${e.deadline.getFullYear()}-${e.deadline.getMonth()+1}-${e.deadline.getDate()} ${e.done? "✅" : "❌"}`
-        ).join("\n");
-
-        ctx.reply(`📚 Твои домашние задания:\n${homeworks}`);
     })
 };

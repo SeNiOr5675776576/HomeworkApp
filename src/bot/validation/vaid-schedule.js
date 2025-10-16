@@ -1,3 +1,4 @@
+import stopMiddleware from "../middleware/stop.js";
 
 export default function isValidSchedule(input){
     const options = /^(Понедельник|Вторник|Среда|Четверг|Пятница|Суббота):\s*([\wА-ЯËа-яё]+\s*\d{1,2}:\d{2})*$/;
