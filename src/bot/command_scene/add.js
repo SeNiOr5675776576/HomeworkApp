@@ -45,7 +45,7 @@ addHomework.on("text", async (ctx) => {
                     subject: `${ctx.session.subject}`,
                     text: `${ctx.session.task}`,
                     deadline: date,
-                    userId: user.id
+                    userId: user.id,
                 },
             });
 

@@ -23,7 +23,7 @@ model Homework {
   text String
   deadline DateTime
   done Boolean @default(false)
-  userId BigInt @unique
+  userId BigInt
   user User @relation(fields: [userId], references: [id])
   createdAt DateTime @default(now())
 }

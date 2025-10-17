@@ -574,3 +574,27 @@ Unique constraint failed on the fields: (`userId`)
     at async Polling.loop (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/polling.js:73:30)
     at async Telegraf.launch (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/telegraf.js:194:13)
 
+[2025-10-17T14:59:35.581Z] [Telegraf (message)] TypeError: (i + 1)(e.user.username || e.user.telegramId.toLocaleString(...))e.texte.createdAt.toLocaleString(...).join is not a function
+    at file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/show-feedback.js:18:14
+    at Array.map (<anonymous>)
+    at file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/show-feedback.js:16:32
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+
+[2025-10-17T15:12:41.373Z] [Telegraf (message)] ReferenceError: text is not defined
+    at file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/show-feedback.js:22:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
+    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
+
