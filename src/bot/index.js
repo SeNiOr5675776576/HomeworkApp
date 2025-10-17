@@ -10,7 +10,6 @@ import remaindersHomework from "./cron/remainders-hw.js";
 import logError from "./feature/log-error.js";
 import restartBot from "./feature/restart-bot.js";
 import feedback from "./command_scene/feedback.js";
-import stopMiddleware from "./middleware/stop.js";
 
 // Подключение dotenv конфига
 dotenv.config();
