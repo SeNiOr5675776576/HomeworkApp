@@ -4,7 +4,7 @@ export default function showFeedback(bot){
     bot.command("showfeedback", async (ctx) => {
         const admin = Number(process.env.ID_ADMIN)
 
-        if (BigInt(ctx.from.id) !== admin) return ctx.reply("❌ Эта команда тебе недоступна!");
+        if (BigInt(ctx.from.id) !== BigInt(admin)) return ctx.reply("❌ Эта команда тебе недоступна!");
 
         const feedbacks = await prisma.feedback.findMany({
             include: {user: true},
