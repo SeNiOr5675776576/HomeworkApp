@@ -10,11 +10,17 @@ export default function showSchedule(bot){
                 where: {userId: user.id},
             });
 
+            if (!schedule){
+                return ctx.reply("Расписания пока что нет 😎")
+            }
+
             return ctx.reply(assemblyScheduleLine(schedule))
         }
         catch (err) {
             console.error("❌ Ошибка при открытии расписания: ", err)
             await ctx.reply("❌ Произошла ошибка при открытии расписания. Пожалуйста повторите попытку позже!")
+            ctx.session = {};
+            return ctx.scene.leave();
         }
     });
 }

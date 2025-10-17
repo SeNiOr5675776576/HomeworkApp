@@ -53,6 +53,8 @@ deleteHomework.on("text", async (ctx) => {
     catch (err) {
         console.error("❌ Ошибка при удалении домашнего задания: ", err)
         await ctx.reply("❌ Произошла ошибка при удалении домашнего задания. Пожалуйста повторите попытку позже!")
+        ctx.session = {};
+        return ctx.scene.leave();
     }
 });
 

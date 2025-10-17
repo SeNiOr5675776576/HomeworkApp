@@ -54,9 +54,4 @@ export default function remaindersHomework(bot){
             console.log("Ошибка при рассылке: ", err);
         };
     }, {timezone: "Europe/Moscow"});
-}
-
-function formatDay(dayNum){
-    const days = ["", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"];
-    return days[dayNum];
-}
+};

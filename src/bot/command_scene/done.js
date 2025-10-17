@@ -50,6 +50,8 @@ doneHomework.on("text", async (ctx) => {
     catch (err) {
         console.error("❌ Ошибка при выполнении домашнего задания: ", err)
         await ctx.reply("❌ Произошла ошибка при выполнении домашнего задания. Пожалуйста повторите попытку позже!")
+        ctx.session = {};
+        return ctx.scene.leave();
     }
 });
 

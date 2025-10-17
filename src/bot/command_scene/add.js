@@ -45,7 +45,7 @@ addHomework.on("text", async (ctx) => {
                     subject: `${ctx.session.subject}`,
                     text: `${ctx.session.task}`,
                     deadline: date,
-                    user: { connect: { id: user.id }}
+                    userId: user.id
                 },
             });
 
@@ -58,6 +58,8 @@ addHomework.on("text", async (ctx) => {
     catch (err){
         console.error("Ошибка в создании домашнего задания: ", err)
         await ctx.reply("Произошла ошибка при создании домашнего здания. Пожалуйста повторите попытку позже!")
+        ctx.session = {};
+        return ctx.scene.leave();
     }
 });
 

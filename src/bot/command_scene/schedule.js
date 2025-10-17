@@ -119,6 +119,8 @@ schedule.on("text", async (ctx) => {
     catch (err) {
         console.error("❌ Ошибка при записи расписания: ", err)
         await ctx.reply("❌ Произошла ошибка при записи расписания. Пожалуйста повторите попытка позже!")
+        ctx.session = {};
+        return ctx.scene.leave();
     }
 });
 
