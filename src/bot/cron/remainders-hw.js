@@ -47,7 +47,7 @@ export default function remaindersHomework(bot){
                     message += `\nПродолжай в том же духе!`
                 }
 
-                await bot.telegram.sendMessage(user.telegramId, message);
+                await bot.telegram.sendMessage(String(user.telegramId), message);
             }
         }
         catch (err) {
