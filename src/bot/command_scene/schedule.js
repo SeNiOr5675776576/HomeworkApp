@@ -1,6 +1,6 @@
 import { Scenes } from "telegraf";
 import { prisma } from "../../db/prisma.js";
-import isValidSchedule from "../validation/vaid-schedule.js";
+import isValidSchedule from "../validation/valid-schedule.js";
 import parseScheduleLine from "../parsing/parsing-schedule.js";
 
 const schedule = new Scenes.BaseScene("SCHEDULE");

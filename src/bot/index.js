@@ -7,8 +7,8 @@ import doneHomework from "./command_scene/done.js";
 import registerCommand from "./command_scene/register-command.js";
 import schedule from "./command_scene/schedule.js";
 import remaindersHomework from "./cron/remainders-hw.js";
-import logError from "./feature/log-error.js";
-import restartBot from "./feature/restart-bot.js";
+import logError from "./error/log-error.js";
+import restartBot from "./error/restart-bot.js";
 import feedback from "./command_scene/feedback.js";
 
 // Подключение dotenv конфига
