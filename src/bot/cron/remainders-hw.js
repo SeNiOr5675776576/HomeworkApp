@@ -9,8 +9,7 @@ export default function remaindersHomework(bot){
             });
 
             const today = new Date()
-            const tomorrow = new Date(today)
-            tomorrow.setDate(today.setDate() + 1)
+            const tomorrow = new Date()
 
             const todayDayOfWeek = today.getDate();
             const normalizedDay = todayDayOfWeek === 0 ? 7 : todayDayOfWeek
@@ -18,12 +17,11 @@ export default function remaindersHomework(bot){
             for (const user of users){
                 const todayLessons = user.schedule.filter(s => s.dayOfWeek === normalizedDay);
                 const tomorrowsHomework = user.homework.filter(hw => {
-                    const deadline = new Date(hw.deadline)
-                    
+                    const deadline = hw.deadline
                     return (
-                        deadline.getFullYear() === tomorrow.getFullYear() &&
-                        deadline.getMonth() === tomorrow.getMonth() &&
-                        deadline.getDay() === tomorrow.getDay()
+                        deadline.getFullYear() == tomorrow.getFullYear() &&
+                        deadline.getMonth()+1 == tomorrow.getMonth()+1 &&
+                        deadline.getDate() == tomorrow.getDate()+1
                     );
                 })
 
