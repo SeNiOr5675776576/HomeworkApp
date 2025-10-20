@@ -16,7 +16,7 @@ deleteHomework.on("text", async (ctx) => {
             ctx.session.date = ctx.message.text;
 
             if (!isValidDate(ctx.session.date)){
-                return ctx.reply("Неверный формат, введите дату в формате ГГГГ-ММ-ДД")
+                return ctx.reply("Неверный формат, введи дату в формате ГГГГ-ММ-ДД")
             }
 
             ctx.session.step = 2;
@@ -52,7 +52,7 @@ deleteHomework.on("text", async (ctx) => {
     }
     catch (err) {
         console.error("❌ Ошибка при удалении домашнего задания: ", err)
-        await ctx.reply("❌ Произошла ошибка при удалении домашнего задания. Пожалуйста повторите попытку позже!")
+        await ctx.reply("❌ Произошла ошибка при удалении домашнего задания. Пожалуйста, повтори попытку позже!")
         ctx.session = {};
         return ctx.scene.leave();
     }

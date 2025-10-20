@@ -26,7 +26,7 @@ export default function listHomework(bot){
         }
         catch (err){
             console.error("❌ Ошибка при открытии списка домашних заданий: ", err)
-            await ctx.reply("❌ Произошла ошибка при открытии списка домашних заданий. Пожалуйста повторите попытку позже!")
+            await ctx.reply("❌ Произошла ошибка при открытии списка домашних заданий. Пожалуйста, повтори попытку позже!")
             ctx.session = {};
             return ctx.scene.leave();
         }

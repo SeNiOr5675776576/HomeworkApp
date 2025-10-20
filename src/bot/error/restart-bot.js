@@ -19,7 +19,7 @@ export default function restartBot(){
         }
     }
     catch (err) {
-        console.error("Ошибка при очистки логов: ", err)
+        console.error("Ошибка при очистке логов: ", err)
     }
 
     console.log("🔄 Перезапуск бота...")

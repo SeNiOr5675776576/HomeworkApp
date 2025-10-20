@@ -39,7 +39,7 @@ export default function remaindersHomework(bot){
                 if (tomorrowsHomework.length > 0){
                     message += `📝 А вот домашнее задание на завтра:\n`
                     message += tomorrowsHomework.map((hw, i) => `${i+1}. ${hw.subject}: ${hw.text}`).join("\n")
-                    message += `\n\nНе откладывай на завтра - лучше сделай сегодня 💪\nТы создан чтобы побеждать! 🚀`
+                    message += `\n\nНе откладывай на завтра - лучше сделай сегодня 💪\nТы создан, чтобы побеждать! 🚀`
                 } else {
                     message += `Завтра ничего сдавать не нужно! 😎`
                     message += `\nПродолжай в том же духе!`

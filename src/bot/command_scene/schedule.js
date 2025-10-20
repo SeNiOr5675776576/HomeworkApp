@@ -7,7 +7,7 @@ const schedule = new Scenes.BaseScene("SCHEDULE");
 
 schedule.enter((ctx) => {
     ctx.session.schedule = [];
-    return ctx.reply(`📘 Давай запишим твоё расписание!\nЯ буду спрашивать тебя по дням недели.\n\nНапиши задание на понедельник в формате:\n"Понедельник: математика 8:00, русский 9:00, ..."`)
+    return ctx.reply(`📘 Давай запишем твоё расписание!\nЯ буду спрашивать тебя по дням недели.\n\nНапиши задание на понедельник в формате:\n"Понедельник: математика 8:00, русский 9:00, ..."`)
 });
 
 schedule.on("text", async (ctx) => {
@@ -16,7 +16,7 @@ schedule.on("text", async (ctx) => {
         
         if (step === "1"){
             if (!isValidSchedule(ctx.message.text)){
-                return ctx.reply(`Неверный формат, напишите расписание в виде: "Понедельник: математика 8:00, ..."`)
+                return ctx.reply(`Неверный формат, напиши расписание в виде: "Понедельник: математика 8:00, ..."`)
             };
 
             ctx.session.schedule.push(parseScheduleLine(ctx.message.text))
@@ -26,7 +26,7 @@ schedule.on("text", async (ctx) => {
 
         if (step === "2"){
             if (!isValidSchedule(ctx.message.text)){
-                return ctx.reply(`Неверный формат, напишите расписание в виде: "Вторник: математика 8:00, ..."`)
+                return ctx.reply(`Неверный формат, напиши расписание в виде: "Вторник: математика 8:00, ..."`)
             };
 
             ctx.session.schedule.push(parseScheduleLine(ctx.message.text))
@@ -36,7 +36,7 @@ schedule.on("text", async (ctx) => {
 
         if (step === "3"){
             if (!isValidSchedule(ctx.message.text)){
-                return ctx.reply(`Неверный формат, напишите расписание в виде: "Среда: математика 8:00, ..."`)
+                return ctx.reply(`Неверный формат, напиши расписание в виде: "Среда: математика 8:00, ..."`)
             };
 
             ctx.session.schedule.push(parseScheduleLine(ctx.message.text))
@@ -46,7 +46,7 @@ schedule.on("text", async (ctx) => {
 
         if (step === "4"){
             if (!isValidSchedule(ctx.message.text)){
-                return ctx.reply(`Неверный формат, напишите расписание в виде: "Четверг: математика 8:00, ..."`)
+                return ctx.reply(`Неверный формат, напиши расписание в виде: "Четверг: математика 8:00, ..."`)
             };
 
             ctx.session.schedule.push(parseScheduleLine(ctx.message.text))
@@ -56,7 +56,7 @@ schedule.on("text", async (ctx) => {
 
         if (step === "5"){
             if (!isValidSchedule(ctx.message.text)){
-                return ctx.reply(`Неверный формат, напишите расписание в виде: "Пятница: математика 8:00, ..."`)
+                return ctx.reply(`Неверный формат, напиши расписание в виде: "Пятница: математика 8:00, ..."`)
             };
 
             ctx.session.schedule.push(parseScheduleLine(ctx.message.text))
@@ -69,7 +69,7 @@ schedule.on("text", async (ctx) => {
 
             if (answer == "да"){
                 ctx.session.step = "7";
-                return ctx.reply("Тогда напиши что у тебя в субботу");
+                return ctx.reply("Тогда напиши, что у тебя в субботу");
             } else if (answer == "нет") {
 
                 const user = await prisma.user.findUnique({where:{telegramId: BigInt(ctx.from.id)}})
@@ -95,7 +95,7 @@ schedule.on("text", async (ctx) => {
 
         if (step === "7"){
             if (!isValidSchedule(ctx.message.text)){
-                return ctx.reply(`Неверный формат, напишите расписание в виде: "Суббота: математика 8:00, ..."`)
+                return ctx.reply(`Неверный формат, напиши расписание в виде: "Суббота: математика 8:00, ..."`)
             };
 
             ctx.session.schedule.push(parseScheduleLine(ctx.message.text))
@@ -118,7 +118,7 @@ schedule.on("text", async (ctx) => {
     }
     catch (err) {
         console.error("❌ Ошибка при записи расписания: ", err)
-        await ctx.reply("❌ Произошла ошибка при записи расписания. Пожалуйста повторите попытка позже!")
+        await ctx.reply("❌ Произошла ошибка при записи расписания. Пожалуйста, повтори попытку позже!")
         ctx.session = {};
         return ctx.scene.leave();
     }

@@ -18,7 +18,7 @@ export default function showSchedule(bot){
         }
         catch (err) {
             console.error("❌ Ошибка при открытии расписания: ", err)
-            await ctx.reply("❌ Произошла ошибка при открытии расписания. Пожалуйста повторите попытку позже!")
+            await ctx.reply("❌ Произошла ошибка при открытии расписания. Пожалуйста, повтори попытку позже!")
             ctx.session = {};
             return ctx.scene.leave();
         }

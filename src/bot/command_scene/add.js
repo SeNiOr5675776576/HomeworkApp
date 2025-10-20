@@ -8,7 +8,7 @@ const addHomework = new Scenes.BaseScene("ADD_HOMEWORK")
 addHomework.enter((ctx) => {
     const telegramId = BigInt(ctx.from.id)
     if (!telegramId){
-        return ctx.reply("Не удалось найти вас. Сначала используйте команду /start")
+        return ctx.reply("Не удалось найти тебя. Сначала используй команду /start")
     };
     ctx.reply(`Давай добавим новое домашнее задание!\n\nНапиши предмет (например: "Математика")`);
 });
@@ -33,7 +33,7 @@ addHomework.on("text", async (ctx) => {
             const date = new Date(ctx.message.text)
 
             if (!isValidDate(ctx.message.text)){
-                return ctx.reply("Неверный формат, введите дату в формате ГГГГ-ММ-ДД!")
+                return ctx.reply("Неверный формат, введи дату в формате ГГГГ-ММ-ДД!")
             }
 
             const user = await prisma.user.findUnique({
@@ -57,7 +57,7 @@ addHomework.on("text", async (ctx) => {
     }
     catch (err){
         console.error("Ошибка в создании домашнего задания: ", err)
-        await ctx.reply("Произошла ошибка при создании домашнего здания. Пожалуйста повторите попытку позже!")
+        await ctx.reply("Произошла ошибка при создании домашнего задания. Пожалуйста, повтори попытку позже!")
         ctx.session = {};
         return ctx.scene.leave();
     }
