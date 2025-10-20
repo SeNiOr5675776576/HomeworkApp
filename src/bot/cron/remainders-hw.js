@@ -11,7 +11,7 @@ export default function remaindersHomework(bot){
             const today = new Date()
             const tomorrow = new Date()
 
-            const todayDayOfWeek = today.getDate();
+            const todayDayOfWeek = today.getDay();
             const normalizedDay = todayDayOfWeek === 0 ? 7 : todayDayOfWeek
 
             for (const user of users){
