@@ -5,7 +5,7 @@ import isValidDate from "../validation/valid-date.js";
 const deleteHomework = new Scenes.BaseScene("DELETE_HOMEWORK");
 
 deleteHomework.enter((ctx) => {
-    ctx.reply("🗑️ Хочешь удалить задание?\n\nТогда напиши дату сдачи этого задания в формате ГГГГ-ММ-ДД")
+    ctx.reply("🗑️ Хочешь удалить задание?\n\nТогда напиши дату сдачи этого задания в формате ГГГГ-ММ-ДД ✍️")
 });
 
 deleteHomework.on("text", async (ctx) => {
@@ -20,7 +20,7 @@ deleteHomework.on("text", async (ctx) => {
             }
 
             ctx.session.step = 2;
-            return ctx.reply("Отлично! Теперь напиши по какому предмету это задание?");
+            return ctx.reply("Отлично! Теперь напиши по какому предмету это задание ✍️");
         }
         if (step === 2){
             ctx.session.subject = ctx.message.text;
@@ -36,14 +36,20 @@ deleteHomework.on("text", async (ctx) => {
                     userId: user.id,
                 },
             })
-
-            await prisma.homework.delete({
-                where: {
-                    subject: `${ctx.session.subject}`,
-                    deadline: new Date(ctx.session.date),
-                    id: homework.id,
-                },
-            });
+            if (homework){
+                await prisma.homework.delete({
+                    where: {
+                        subject: `${ctx.session.subject}`,
+                        deadline: new Date(ctx.session.date),
+                        id: homework.id,
+                    },
+                });
+            }
+            else {
+                ctx.reply("❌ Задание не найдено! Возможно ты уже его удалил. Проверь правильно ли ты ввёл предмет и дату!")
+                ctx.session = {}
+                return ctx.scene.leave();
+            }
 
             ctx.reply("✅ Задание удалено!")
             ctx.session = {};

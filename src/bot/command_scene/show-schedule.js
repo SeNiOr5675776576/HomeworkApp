@@ -11,7 +11,7 @@ export default function showSchedule(bot){
             });
 
             if (!schedule){
-                return ctx.reply("Расписания пока что нет 😎")
+                return ctx.reply("Расписания пока что нет 🤨. Думаю тебе нужно его записать, чтобы быть на пике своей эффективности 😎")
             }
 
             return ctx.reply(assemblyScheduleLine(schedule))

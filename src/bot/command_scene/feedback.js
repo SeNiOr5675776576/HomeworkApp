@@ -23,7 +23,7 @@ feedback.on("text", async (ctx) => {
         ctx.scene.leave()        
     }
     catch (err) {
-        console.error("Ошибка при сохранении отзыва:", err)
+        console.error("❌ Ошибка при сохранении отзыва:", err)
         await ctx.reply("❌ Произошла ошибка при сохранении. Пожалуйста, повтори попытку позже!")
         ctx.session = {};
         return ctx.scene.leave();

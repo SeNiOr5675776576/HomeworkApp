@@ -10,7 +10,7 @@ addHomework.enter((ctx) => {
     if (!telegramId){
         return ctx.reply("Не удалось найти тебя. Сначала используй команду /start")
     };
-    ctx.reply(`Давай добавим новое домашнее задание!\n\nНапиши предмет (например: "Математика")`);
+    ctx.reply(`➕ Давай добавим новое домашнее задание!\n\nНапиши предмет (например: "Математика") ✍️`);
 });
 
 addHomework.on("text", async (ctx) => {
@@ -20,13 +20,13 @@ addHomework.on("text", async (ctx) => {
         if (step === 1){
             ctx.session.subject = ctx.message.text;
             ctx.session.step = 2;
-            return ctx.reply(`Отлично! Теперь напиши задание ✍️ (например: "Параграф 1")`)
+            return ctx.reply(`Отлично! Теперь напиши задание (например: "Параграф 1") ✍️`)
         }
 
         if (step === 2){
             ctx.session.task = ctx.message.text;
             ctx.session.step = 3;
-            return ctx.reply(`Когда нужно сдать задание? 📅\nНапиши дату в формате ГГГГ-ММ-ДД (например: 2025-01-01)`)
+            return ctx.reply(`📅 Когда нужно сдать задание? \nНапиши дату в формате ГГГГ-ММ-ДД (например: 2026-01-01)`)
         }
 
         if (step === 3){
@@ -56,8 +56,8 @@ addHomework.on("text", async (ctx) => {
         }
     }
     catch (err){
-        console.error("Ошибка в создании домашнего задания: ", err)
-        await ctx.reply("Произошла ошибка при создании домашнего задания. Пожалуйста, повтори попытку позже!")
+        console.error("❌ Ошибка в создании домашнего задания: ", err)
+        await ctx.reply("❌ Произошла ошибка при создании домашнего задания. Пожалуйста, повтори попытку позже!")
         ctx.session = {};
         return ctx.scene.leave();
     }

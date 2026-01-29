@@ -6,10 +6,14 @@ import deleteHomework from "./command_scene/delete.js";
 import doneHomework from "./command_scene/done.js";
 import registerCommand from "./command_scene/register-command.js";
 import schedule from "./command_scene/schedule.js";
-import remaindersHomework from "./cron/remainders-hw.js";
+import remaindersHomework from './cron/remainders-hw.js'
 import logError from "./error/log-error.js";
 import restartBot from "./error/restart-bot.js";
 import feedback from "./command_scene/feedback.js";
+import remaindersSchedule from "./cron/remainders-schedule.js";
+import setting from "./command_scene/setting.js";
+import checkOverdue from "./cron/check-overdue.js";
+import remaindersOverdue from "./cron/remainders-overdue.js";
 
 // Подключение dotenv конфига
 dotenv.config();
@@ -28,7 +32,7 @@ bot.command("stop", async (ctx) => {
 });
 
 // Подключение сцен
-const stage = new Scenes.Stage([addHomework, deleteHomework, doneHomework, schedule, feedback]);
+const stage = new Scenes.Stage([addHomework, deleteHomework, doneHomework, schedule, feedback, setting]);
 bot.use(stage.middleware());
 
 // Меню команд
@@ -41,7 +45,9 @@ bot.telegram.setMyCommands([
     { command: "list", description: "📋 Список домашних заданий" },
     { command: "schedule", description: "🗓️ Добавить расписание" },
     { command: "showschedule", description: "📖 Показать расписание" },
-    { command: "feedback", description: "💬 Оставить отзыв о боте"}
+    { command: "overdue", description: "🕛 Показать просроченные задания" },
+    { command: "feedback", description: "💬 Оставить отзыв о боте"},
+    { command: "setting", description: "⚙️ Настройка напоминаний"}
 ])
 
 // Команда старт бота
@@ -57,10 +63,13 @@ bot.start(async (ctx) => {
     • Добавить домашнее задание (/add)
     • Отмечать выполненные (/done)
     • Удалять ненужные (/delete)
+    • Отметить выполненое задание (/done)
     • Смотреть список дз (/list)
     • Добавить своё расписание (/schedule)
     • Смотреть расписание (/showschedule)
-    • Оставить отзыв (/feedback)\n\nА ещё я каждый день буду напоминать тебе о сегодняшнем расписании и о домашке на завтра 😎\n\nНу что, начнём? Добавь расписание и домашку, чтобы я сразу мог напомнить тебе обо всём завтра 🤓
+    • Смотреть просроченные задания (/overdue)
+    • Настроить напоминания (/setting)
+    • Оставить отзыв (/feedback)\n\nА ещё я каждый день буду напоминать тебе о сегодняшнем расписании и о домашке на завтра 😎\n\nНу что, начнём? Настрой напоминания и добавь расписание с домашкой, чтобы я сразу мог напомнить тебе обо всём завтра 🤓
     `);
 });
 
@@ -77,13 +86,17 @@ bot.catch((err, ctx) => {
 })
 
 // Вызов сцен и команд
+checkOverdue(bot);
 remaindersHomework(bot);
+remaindersSchedule(bot);
+remaindersOverdue(bot);
 registerCommand(bot);
 bot.command("add", (ctx) => ctx.scene.enter("ADD_HOMEWORK"));
 bot.command("delete", (ctx) => ctx.scene.enter("DELETE_HOMEWORK"));
 bot.command("done", (ctx) => ctx.scene.enter("DONE_HOMEWORK"));
 bot.command("schedule", (ctx) => ctx.scene.enter("SCHEDULE"));
 bot.command("feedback", (ctx) => ctx.scene.enter("FEEDBACK"));
+bot.command("setting", (ctx) => ctx.scene.enter("SETTING"))
 
 // Запуск бота
 bot.launch();
@@ -97,5 +110,4 @@ process.on("uncaughtException", (err) => {
 })
 process.on("unhandledRejection", (reason) => {
     logError(reason, "unhandledRejection", bot)
-    restartBot();
 })

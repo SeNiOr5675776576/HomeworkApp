@@ -5,7 +5,7 @@ import isValidDate from "../validation/valid-date.js";
 const doneHomework = new Scenes.BaseScene("DONE_HOMEWORK");
 
 doneHomework.enter((ctx) => {
-    ctx.reply("🎯 Давай пометим задание как выполненное!\n\nДля этого напиши дату сдачи задания в формате ГГГГ-ММ-ДД")
+    ctx.reply("🎯 Давай пометим задание как выполненное!\n\nДля этого напиши дату сдачи задания в формате ГГГГ-ММ-ДД ✍️")
 });
 
 doneHomework.on("text", async (ctx) => {
@@ -20,7 +20,7 @@ doneHomework.on("text", async (ctx) => {
             }
 
             ctx.session.step = 2;
-            return ctx.reply("Отлично! Теперь напиши по какому предмету это задание?");
+            return ctx.reply("Отлично! Теперь напиши по какому предмету это задание ✍️");
         }
         if (step === 2){
             ctx.session.subject = ctx.message.text;
@@ -33,16 +33,35 @@ doneHomework.on("text", async (ctx) => {
                 where: {
                     userId: user.id,
                     subject: ctx.session.subject,
-                    deadline: new Date(ctx.session.date),
+                    deadline: new Date(ctx.session.date)
                 },
             });
+            const overdue = await prisma.overdue.findFirst({
+                where: {
+                    userId: user.id,
+                    subject: ctx.session.subject,
+                    deadline: new Date(ctx.session.date)
+                }
+            })
 
-            await prisma.homework.update({
-                where: { id: homework.id },
-                data: { done: true },
-            });
+            if (homework){  
+                await prisma.homework.update({
+                    where: { id: homework.id },
+                    data: { done: true },
+                });
+            }
+            else if (overdue) {
+                await prisma.overdue.delete({
+                    where: { id: overdue.id }
+                })
+            }
+            else {
+                ctx.reply("❌ Задание не найдена! Возможно ты его уже сделал или удалил. Проверь правильно ли ты ввёл предмет и дату!")
+                ctx.session = {}
+                return ctx.scene.leave();
+            }
 
-            ctx.reply("✅ Отлично! Задание выполнено!\nПродолжай покорять новые вершины! 🚀");
+            ctx.reply("✅ Отлично! Задание выполнено!\nПродолжай покорять новые вершины 🚀");
             ctx.session = {};
             return ctx.scene.leave();
         };

@@ -1,600 +1,280 @@
-[2025-10-13T15:08:32.400Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+[2026-01-11T12:18:22.331Z] [unhandledRejection] Error: 429: Too Many Requests: retry after 768
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 
-[2025-10-13T15:08:45.739Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+[2026-01-11T12:18:22.449Z] [unhandledRejection] Error: 409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async [Symbol.asyncIterator] (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/polling.js:30:33)
+    at async Polling.loop (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/polling.js:73:30)
+    at async Telegraf.launch (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/telegraf.js:194:13)
+
+[2026-01-11T12:18:39.126Z] [unhandledRejection] Error: 429: Too Many Requests: retry after 751
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 
-[2025-10-13T15:12:44.479Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+[2026-01-11T12:18:39.159Z] [unhandledRejection] Error: 409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async [Symbol.asyncIterator] (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/polling.js:30:33)
+    at async Polling.loop (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/polling.js:73:30)
+    at async Telegraf.launch (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/telegraf.js:194:13)
+
+[2026-01-11T12:18:51.042Z] [unhandledRejection] Error: 429: Too Many Requests: retry after 739
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 
-[2025-10-13T15:12:48.189Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+[2026-01-11T12:18:51.204Z] [unhandledRejection] Error: 409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async [Symbol.asyncIterator] (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/polling.js:30:33)
+    at async Polling.loop (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/polling.js:73:30)
+    at async Telegraf.launch (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/telegraf.js:194:13)
+
+[2026-01-11T12:19:02.976Z] [unhandledRejection] Error: 409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async [Symbol.asyncIterator] (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/polling.js:30:33)
+    at async Polling.loop (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/polling.js:73:30)
+    at async Telegraf.launch (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/telegraf.js:194:13)
+
+[2026-01-11T12:19:03.019Z] [unhandledRejection] Error: 429: Too Many Requests: retry after 727
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 
-[2025-10-13T15:13:00.730Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+[2026-01-11T12:19:15.002Z] [unhandledRejection] Error: 429: Too Many Requests: retry after 715
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 
-[2025-10-13T15:13:09.070Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+[2026-01-11T12:19:15.133Z] [unhandledRejection] Error: 409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async [Symbol.asyncIterator] (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/polling.js:30:33)
+    at async Polling.loop (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/polling.js:73:30)
+    at async Telegraf.launch (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/telegraf.js:194:13)
+
+[2026-01-11T12:19:26.781Z] [unhandledRejection] Error: 429: Too Many Requests: retry after 704
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 
-[2025-10-13T15:13:57.123Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+[2026-01-11T12:19:26.847Z] [unhandledRejection] Error: 409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async [Symbol.asyncIterator] (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/polling.js:30:33)
+    at async Polling.loop (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/polling.js:73:30)
+    at async Telegraf.launch (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/telegraf.js:194:13)
+
+[2026-01-11T12:19:38.395Z] [unhandledRejection] Error: 429: Too Many Requests: retry after 692
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 
-[2025-10-13T15:14:47.157Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+[2026-01-11T12:19:38.581Z] [unhandledRejection] Error: 409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async [Symbol.asyncIterator] (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/polling.js:30:33)
+    at async Polling.loop (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/polling.js:73:30)
+    at async Telegraf.launch (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/telegraf.js:194:13)
+
+[2026-01-11T12:19:50.131Z] [unhandledRejection] Error: 429: Too Many Requests: retry after 680
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 
-[2025-10-13T15:14:47.158Z] [uncaughtException] ReferenceError: procces is not defined
-    at process.<anonymous> (file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/index.js:90:16)
-    at process.emit (node:events:519:28)
-    at emitUnhandledRejection (node:internal/process/promises:252:13)
-    at throwUnhandledRejectionsMode (node:internal/process/promises:388:19)
-    at processPromiseRejections (node:internal/process/promises:475:17)
-    at process.processTicksAndRejections (node:internal/process/task_queues:106:32)
+[2026-01-11T12:19:50.278Z] [unhandledRejection] Error: 409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async [Symbol.asyncIterator] (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/polling.js:30:33)
+    at async Polling.loop (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/polling.js:73:30)
+    at async Telegraf.launch (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/telegraf.js:194:13)
 
-[2025-10-13T15:14:50.492Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+[2026-01-11T12:20:06.784Z] [unhandledRejection] Error: 429: Too Many Requests: retry after 664
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 
-[2025-10-13T15:14:54.464Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+[2026-01-11T12:21:06.338Z] [unhandledRejection] Error: 429: Too Many Requests: retry after 604
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 
-[2025-10-13T15:16:21.563Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+[2026-01-11T12:21:18.419Z] [unhandledRejection] Error: 409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async [Symbol.asyncIterator] (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/polling.js:30:33)
+    at async Polling.loop (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/polling.js:73:30)
+    at async Telegraf.launch (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/telegraf.js:194:13)
+
+[2026-01-11T12:21:18.424Z] [unhandledRejection] Error: 429: Too Many Requests: retry after 592
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 
-[2025-10-13T15:16:21.564Z] [uncaughtException] TypeError: Cannot read properties of undefined (reading 'exit')
-    at restartBot (file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/feature/restart-bot.js:3:13)
-    at process.<anonymous> (file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/index.js:90:5)
-    at process.emit (node:events:519:28)
-    at emitUnhandledRejection (node:internal/process/promises:252:13)
-    at throwUnhandledRejectionsMode (node:internal/process/promises:388:19)
-    at processPromiseRejections (node:internal/process/promises:475:17)
-    at process.processTicksAndRejections (node:internal/process/task_queues:106:32)
-
-[2025-10-13T15:16:30.679Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+[2026-01-11T12:22:19.053Z] [unhandledRejection] Error: 429: Too Many Requests: retry after 531
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 
-[2025-10-13T15:17:51.742Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+[2026-01-11T12:22:31.169Z] [unhandledRejection] Error: 429: Too Many Requests: retry after 519
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 
-[2025-10-13T15:17:51.742Z] [uncaughtException] TypeError: Cannot read properties of undefined (reading 'exit')
-    at restartBot (file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/feature/restart-bot.js:3:13)
-    at process.<anonymous> (file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/index.js:90:5)
-    at process.emit (node:events:519:28)
-    at emitUnhandledRejection (node:internal/process/promises:252:13)
-    at throwUnhandledRejectionsMode (node:internal/process/promises:388:19)
-    at processPromiseRejections (node:internal/process/promises:475:17)
-    at process.processTicksAndRejections (node:internal/process/task_queues:106:32)
+[2026-01-11T12:22:31.313Z] [unhandledRejection] Error: 409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async [Symbol.asyncIterator] (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/polling.js:30:33)
+    at async Polling.loop (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/polling.js:73:30)
+    at async Telegraf.launch (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/telegraf.js:194:13)
 
-[2025-10-13T15:17:58.179Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+[2026-01-11T12:22:43.149Z] [unhandledRejection] Error: 409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async [Symbol.asyncIterator] (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/polling.js:30:33)
+    at async Polling.loop (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/polling.js:73:30)
+    at async Telegraf.launch (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/telegraf.js:194:13)
+
+[2026-01-11T12:22:43.269Z] [unhandledRejection] Error: 429: Too Many Requests: retry after 507
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 
-[2025-10-13T15:18:28.892Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+[2026-01-11T12:22:52.097Z] [unhandledRejection] Error: 429: Too Many Requests: retry after 498
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 
-[2025-10-13T15:18:30.622Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+[2026-01-11T12:23:03.805Z] [unhandledRejection] Error: 429: Too Many Requests: retry after 487
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 
-[2025-10-13T15:18:36.973Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+[2026-01-11T12:23:03.900Z] [unhandledRejection] Error: 409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async [Symbol.asyncIterator] (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/polling.js:30:33)
+    at async Polling.loop (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/polling.js:73:30)
+    at async Telegraf.launch (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/telegraf.js:194:13)
+
+[2026-01-12T05:31:51.087Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/getMe failed, reason: getaddrinfo ENOTFOUND api.telegram.org
+    at ClientRequest.<anonymous> (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:105:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+[2026-01-12T05:31:51.089Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/setMyCommands failed, reason: getaddrinfo ENOTFOUND api.telegram.org
+    at ClientRequest.<anonymous> (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:105:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+[2026-01-12T05:35:27.489Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/setMyCommands failed, reason: getaddrinfo ENOTFOUND api.telegram.org
+    at ClientRequest.<anonymous> (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:105:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+[2026-01-12T05:35:27.492Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/getMe failed, reason: getaddrinfo ENOTFOUND api.telegram.org
+    at ClientRequest.<anonymous> (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:105:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+[2026-01-28T09:08:27.661Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/getMe failed, reason: getaddrinfo ENOTFOUND api.telegram.org
+    at ClientRequest.<anonymous> (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:105:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+[2026-01-28T09:08:27.667Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/setMyCommands failed, reason: getaddrinfo ENOTFOUND api.telegram.org
+    at ClientRequest.<anonymous> (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:105:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+[2026-01-28T09:09:58.710Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/setMyCommands failed, reason: getaddrinfo ENOTFOUND api.telegram.org
+    at ClientRequest.<anonymous> (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:105:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+[2026-01-28T09:09:58.712Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/getMe failed, reason: getaddrinfo ENOTFOUND api.telegram.org
+    at ClientRequest.<anonymous> (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:105:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+[2026-01-28T09:12:22.821Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/getMe failed, reason: getaddrinfo ENOTFOUND api.telegram.org
+    at ClientRequest.<anonymous> (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:105:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+[2026-01-28T09:12:22.828Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/setMyCommands failed, reason: getaddrinfo ENOTFOUND api.telegram.org
+    at ClientRequest.<anonymous> (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/node-fetch/lib/index.js:1501:11)
+    at ClientRequest.emit (node:events:519:28)
+    at emitErrorEvent (node:_http_client:105:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+[2026-01-28T09:51:17.376Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "description"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 
-[2025-10-13T15:18:38.391Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+[2026-01-28T09:51:19.516Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "description"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 
-[2025-10-13T15:18:42.615Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+[2026-01-28T09:51:22.220Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "description"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 
-[2025-10-13T15:18:48.723Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+[2026-01-28T09:51:29.313Z] [unhandledRejection] Error: 400: Bad Request: command description must be non-empty
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 
-[2025-10-13T15:18:51.879Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+[2026-01-28T09:52:27.384Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 
-[2025-10-13T15:22:13.166Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+[2026-01-28T09:52:32.047Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 
-[2025-10-13T15:22:14.100Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+[2026-01-28T09:52:40.337Z] [unhandledRejection] Error: 400: Bad Request: command must be non-empty
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 
-[2025-10-13T15:22:18.265Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+[2026-01-28T09:53:02.822Z] [unhandledRejection] Error: 400: Bad Request: command must be non-empty
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-
-[2025-10-13T15:22:20.716Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-
-[2025-10-13T15:22:22.152Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-
-[2025-10-13T15:24:34.000Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-
-[2025-10-13T15:25:18.472Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-
-[2025-10-13T15:25:20.261Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-
-[2025-10-13T15:25:23.733Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-
-[2025-10-13T15:25:38.804Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-
-[2025-10-13T15:25:50.931Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-
-[2025-10-13T15:26:16.768Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-
-[2025-10-13T15:27:15.067Z] [unhandledRejection] Error: 400: Bad Request: can't parse BotCommand: Can't find field "command"
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-
-[2025-10-13T15:28:56.608Z] [unhandledRejection] Error: 400: Bad Request: BOT_COMMAND_INVALID
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-
-[2025-10-13T15:30:01.463Z] [Telegraf (message)] PrismaClientInitializationError: 
-Invalid `prisma.user.upsert()` invocation:
-
-
-User was denied access on the database `(not available)`
-    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:7568)
-    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
-    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
-    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
-    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/index.js:40:5
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-
-[2025-10-13T15:30:37.836Z] [Telegraf (message)] PrismaClientInitializationError: 
-Invalid `prisma.user.upsert()` invocation:
-
-
-User was denied access on the database `(not available)`
-    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:7568)
-    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
-    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
-    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
-    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/index.js:41:5
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-
-[2025-10-13T15:59:27.015Z] [Telegraf (message)] PrismaClientKnownRequestError: 
-Invalid `prisma.schedule.createMany()` invocation:
-
-
-Unique constraint failed on the fields: (`userId`)
-    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:7268)
-    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
-    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
-    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
-    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/schedule.js:80:13
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-
-[2025-10-13T16:00:50.668Z] [Telegraf (message)] PrismaClientKnownRequestError: 
-Invalid `prisma.schedule.createMany()` invocation:
-
-
-Unique constraint failed on the fields: (`userId`)
-    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:7268)
-    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
-    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
-    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
-    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/schedule.js:80:13
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-
-[2025-10-13T16:02:12.968Z] [Telegraf (message)] PrismaClientKnownRequestError: 
-Invalid `prisma.schedule.createMany()` invocation:
-
-
-Unique constraint failed on the fields: (`userId`)
-    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:7268)
-    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
-    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
-    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
-    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/schedule.js:80:13
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-
-[2025-10-13T16:02:47.485Z] [Telegraf (message)] PrismaClientKnownRequestError: 
-Invalid `prisma.schedule.createMany()` invocation:
-
-
-Unique constraint failed on the fields: (`userId`)
-    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:7268)
-    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
-    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
-    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
-    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/schedule.js:80:13
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-
-[2025-10-13T16:03:34.301Z] [Telegraf (message)] PrismaClientKnownRequestError: 
-Invalid `prisma.schedule.createMany()` invocation:
-
-
-Unique constraint failed on the fields: (`userId`)
-    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:7268)
-    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
-    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
-    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
-    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/schedule.js:80:13
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-
-[2025-10-13T16:06:35.659Z] [Telegraf (message)] PrismaClientValidationError: 
-Invalid `prisma.schedule.upsert()` invocation:
-
-{
-  where: {
-    userId_dayOfWeek_subject: {
-    ~~~~~~~~~~~~~~~~~~~~~~~~
-      userId: 1678036065,
-      dayOfWeek: 1,
-      subject: "мат"
-    },
-?   id?: Int,
-?   userId?: Int,
-?   AND?: ScheduleWhereInput | ScheduleWhereInput[],
-?   OR?: ScheduleWhereInput[],
-?   NOT?: ScheduleWhereInput | ScheduleWhereInput[],
-?   dayOfWeek?: IntFilter | Int,
-?   subject?: StringFilter | String,
-?   time?: StringFilter | String,
-?   user?: UserScalarRelationFilter | UserWhereInput
-  },
-  create: {
-    userId: 1678036065,
-    dayOfWeek: 1,
-    subject: "мат",
-    time: "8:00"
-  },
-  update: {
-    time: "8:00"
-  }
-}
-
-Unknown argument `userId_dayOfWeek_subject`. Available options are marked with ?.
-    at Nn (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:29:1363)
-    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6911)
-    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
-    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
-    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
-    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/schedule.js:81:17
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-
-[2025-10-13T16:25:34.102Z] [Telegraf (message)] PrismaClientKnownRequestError: 
-Invalid `prisma.schedule.createMany()` invocation:
-
-
-Unique constraint failed on the fields: (`userId`)
-    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:7268)
-    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
-    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
-    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
-    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/schedule.js:80:13
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-
-[2025-10-13T16:27:59.549Z] [Telegraf (message)] PrismaClientValidationError: 
-Invalid `prisma.schedule.createMany()` invocation:
-
-{
-  data: {
-    user: {
-      connect: {
-        id: 1
-      }
-    },
-    subject: undefined,
-    time: undefined,
-+   dayOfWeek: Int
-  }
-}
-
-Argument `dayOfWeek` is missing.
-    at Nn (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:29:1363)
-    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6911)
-    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
-    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
-    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
-    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/schedule.js:80:13
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-
-[2025-10-13T16:30:59.133Z] [Telegraf (message)] PrismaClientValidationError: 
-Invalid `prisma.schedule.createMany()` invocation:
-
-{
-  data: {
-    userId: 1,
-    subject: undefined,
-    time: undefined,
-+   dayOfWeek: Int
-  }
-}
-
-Argument `dayOfWeek` is missing.
-    at Nn (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:29:1363)
-    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6911)
-    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
-    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
-    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
-    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/schedule.js:80:13
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-
-[2025-10-13T16:33:01.898Z] [Telegraf (message)] PrismaClientKnownRequestError: 
-Invalid `prisma.schedule.createMany()` invocation:
-
-
-Unique constraint failed on the fields: (`userId`)
-    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:7268)
-    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
-    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
-    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
-    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/schedule.js:80:13
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-
-[2025-10-13T16:36:04.566Z] [Telegraf (message)] PrismaClientKnownRequestError: 
-Invalid `prisma.schedule.createMany()` invocation:
-
-
-Unique constraint failed on the fields: (`userId`)
-    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:7268)
-    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
-    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
-    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
-    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/schedule.js:80:13
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-
-[2025-10-13T16:36:46.618Z] [Telegraf (message)] PrismaClientKnownRequestError: 
-Invalid `prisma.schedule.createMany()` invocation:
-
-
-Unique constraint failed on the fields: (`userId`)
-    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:7268)
-    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
-    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
-    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
-    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/schedule.js:80:13
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-
-[2025-10-13T16:38:57.696Z] [Telegraf (message)] PrismaClientUnknownRequestError: 
-Invalid `prisma.user.upsert()` invocation:
-
-
-Error occurred during query execution:
-ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(Error { kind: ToSql(0), cause: Some(Error { kind: ConversionError("Unable to fit integer value '5455027469' into an INT4 (32-bit signed integer)."), original_code: None, original_message: None }) }), transient: false })
-    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:7458)
-    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
-    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
-    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
-    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/index.js:41:5
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-
-[2025-10-13T16:38:57.699Z] [Telegraf (message)] PrismaClientUnknownRequestError: 
-Invalid `prisma.user.upsert()` invocation:
-
-
-Error occurred during query execution:
-ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(Error { kind: ToSql(0), cause: Some(Error { kind: ConversionError("Unable to fit integer value '5455027469' into an INT4 (32-bit signed integer)."), original_code: None, original_message: None }) }), transient: false })
-    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:7458)
-    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
-    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
-    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
-    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/index.js:41:5
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-
-[2025-10-13T16:39:30.429Z] [Telegraf (message)] PrismaClientKnownRequestError: 
-Invalid `prisma.schedule.create()` invocation:
-
-
-Unique constraint failed on the fields: (`userId`)
-    at ei.handleRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:7268)
-    at ei.handleAndLogRequestError (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6593)
-    at ei.request (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:121:6300)
-    at async a (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/@prisma/client/runtime/library.js:130:9551)
-    at async file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/schedule.js:81:17
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-
-[2025-10-14T12:55:35.029Z] [unhandledRejection] TypeError: Cannot read properties of undefined (reading 'message')
-    at stopMiddleware (file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/middleware/stop.js:2:13)
-    at file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/index.js:35:9
-    at ModuleJob.run (node:internal/modules/esm/module_job:345:25)
-    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26)
-    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
-
-[2025-10-14T12:56:35.922Z] [Telegraf (message)] TypeError: Cannot read properties of undefined (reading 'leave')
-    at stopMiddleware (file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/middleware/stop.js:3:25)
-    at execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:23)
-    at /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:27
-    at execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:23)
-    at /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:27
-    at /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/session.js:104:19
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-
-[2025-10-14T12:59:17.918Z] [unhandledRejection] TypeError: Cannot read properties of undefined (reading 'message')
-    at stopMiddleware (file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/middleware/stop.js:2:13)
-    at file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/index.js:26:9
-    at ModuleJob.run (node:internal/modules/esm/module_job:345:25)
-    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26)
-    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
-
-[2025-10-14T12:59:23.709Z] [unhandledRejection] TypeError: Cannot read properties of undefined (reading 'message')
-    at stopMiddleware (file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/middleware/stop.js:2:13)
-    at file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/index.js:26:9
-    at ModuleJob.run (node:internal/modules/esm/module_job:345:25)
-    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26)
-    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
-
-[2025-10-14T13:19:52.271Z] [Telegraf (message)] ReferenceError: ctx is not defined
-    at isValidSchedule (file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/validation/vaid-schedule.js:4:9)
-    at file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/schedule.js:17:14
-    at /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:165:111
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-
-[2025-10-14T13:20:25.631Z] [Telegraf (message)] ReferenceError: ctx is not defined
-    at isValidSchedule (file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/validation/vaid-schedule.js:4:9)
-    at file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/schedule.js:17:14
-    at /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:165:111
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-
-[2025-10-15T13:46:24.534Z] [Telegraf (message)] TypeError: Cannot read properties of undefined (reading 'current')
-    at stopMiddleware (file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/middleware/stop.js:2:27)
-    at /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:397:28
-    at /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:165:111
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-
-[2025-10-15T15:06:00.346Z] [Telegraf (message)] TypeError: Cannot read properties of undefined (reading 'leave')
-    at file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/index.js:26:21
-    at /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:397:28
-    at /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:165:111
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/session.js:104:13
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-
-[2025-10-16T19:46:07.214Z] [unhandledRejection] Error: 409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
-    at Telegram.callApi (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-    at async [Symbol.asyncIterator] (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/polling.js:30:33)
-    at async Polling.loop (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/core/network/polling.js:73:30)
-    at async Telegraf.launch (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/telegraf.js:194:13)
-
-[2025-10-17T14:59:35.581Z] [Telegraf (message)] TypeError: (i + 1)(e.user.username || e.user.telegramId.toLocaleString(...))e.texte.createdAt.toLocaleString(...).join is not a function
-    at file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/show-feedback.js:18:14
-    at Array.map (<anonymous>)
-    at file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/show-feedback.js:16:32
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-
-[2025-10-17T15:12:41.373Z] [Telegraf (message)] ReferenceError: text is not defined
-    at file:///Users/kvasnevdanila/Documents/HomeworkApp/src/bot/command_scene/show-feedback.js:22:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
-    at async /Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:519:21
-    at async execute (/Users/kvasnevdanila/Documents/HomeworkApp/node_modules/telegraf/lib/composer.js:518:17)
 

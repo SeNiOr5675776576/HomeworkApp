@@ -7,7 +7,7 @@ const schedule = new Scenes.BaseScene("SCHEDULE");
 
 schedule.enter((ctx) => {
     ctx.session.schedule = [];
-    return ctx.reply(`📘 Давай запишем твоё расписание!\nЯ буду спрашивать тебя по дням недели.\n\nНапиши задание на понедельник в формате:\n"Понедельник: математика 8:00, русский 9:00, ..."`)
+    return ctx.reply(`📘 Давай запишем твоё расписание!\nЯ буду спрашивать тебя по дням недели.\n\n✍️ Напиши задание на понедельник в формате:\n"Понедельник: математика 8:00, русский 9:00, ..."`)
 });
 
 schedule.on("text", async (ctx) => {
@@ -21,7 +21,7 @@ schedule.on("text", async (ctx) => {
 
             ctx.session.schedule.push(parseScheduleLine(ctx.message.text))
             ctx.session.step = "2"
-            return ctx.reply("Отлично! Теперь вторник")
+            return ctx.reply("Отлично! Теперь вторник ✍️")
         }
 
         if (step === "2"){
@@ -31,7 +31,7 @@ schedule.on("text", async (ctx) => {
 
             ctx.session.schedule.push(parseScheduleLine(ctx.message.text))
             ctx.session.step = "3"
-            return ctx.reply("Теперь на среду")
+            return ctx.reply("Теперь на среду ✍️")
         }
 
         if (step === "3"){
@@ -41,7 +41,7 @@ schedule.on("text", async (ctx) => {
 
             ctx.session.schedule.push(parseScheduleLine(ctx.message.text))
             ctx.session.step = "4"
-            return ctx.reply("Теперь на четверг")
+            return ctx.reply("Теперь на четверг ✍️")
         }
 
         if (step === "4"){
@@ -51,7 +51,7 @@ schedule.on("text", async (ctx) => {
 
             ctx.session.schedule.push(parseScheduleLine(ctx.message.text))
             ctx.session.step = "5";
-            return ctx.reply("Теперь на пятницу");
+            return ctx.reply("Теперь на пятницу ✍️");
         };
 
         if (step === "5"){
@@ -69,7 +69,7 @@ schedule.on("text", async (ctx) => {
 
             if (answer == "да"){
                 ctx.session.step = "7";
-                return ctx.reply("Тогда напиши, что у тебя в субботу");
+                return ctx.reply("Тогда напиши, что у тебя в субботу ✍️");
             } else if (answer == "нет") {
 
                 const user = await prisma.user.findUnique({where:{telegramId: BigInt(ctx.from.id)}})

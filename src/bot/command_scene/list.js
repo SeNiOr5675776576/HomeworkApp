@@ -9,13 +9,7 @@ export default function listHomework(bot){
             })
 
             if (!user || user.homework.length == 0){
-                return ctx.reply("У тебя нет домашних заданий. 😎")
-            }
-
-            const options = {
-                year: "numeric",
-                month: "numeric",
-                day: "numeric",
+                return ctx.reply("У тебя нет домашних заданий 😎")
             }
 
             const homeworks = user.homework.map((e, i) => 
