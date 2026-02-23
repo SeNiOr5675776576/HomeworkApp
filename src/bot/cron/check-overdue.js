@@ -13,26 +13,21 @@ export default function checkOverdue(bot){
             
             for (const user of users) {
                 const homeworks = await prisma.homework.findMany({
-                    where: {userId: user.id}
+                    where: {userId: user.id},
+                    overdue: false, 
                 })
 
                 for (const homework of homeworks){
                     const deadline = `${homework.deadline.getFullYear()}-${homework.deadline.getMonth()+1}-${homework.deadline.getDate()}`
                     if (deadline == nowDate) {
-                        await prisma.overdue.create({
-                            data: {
-                                userId: homework.userId,
-                                subject: homework.subject,
-                                text: homework.text,
-                                deadline: homework.deadline,
-                                done: homework.done
-                            }
-                        })
-
-                        await prisma.homework.deleteMany({
-                            where:  {
+                        await prisma.homework.update({
+                            where: {
                                 id: homework.id,
-                                userId: user.id
+                                userId: user.id,
+                                overdue: false
+                            },
+                            data: {
+                                overdue: true
                             }
                         })
                     }
