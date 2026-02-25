@@ -5,11 +5,16 @@ import isValidDate from "../validation/valid-date.js";
 const addHomework = new Scenes.BaseScene("ADD_HOMEWORK")
 
 
-addHomework.enter((ctx) => {
+addHomework.enter( async (ctx) => {
     const telegramId = BigInt(ctx.from.id)
-    if (!telegramId){
-        return ctx.reply("Не удалось найти тебя. Сначала используй команду /start")
+
+    const user = await prisma.user.findUnique({where: {telegramId: telegramId}})
+
+    if (!user){
+        ctx.reply("Не удалось найти тебя. Сначала используй команду /start")
+        return ctx.scene.leave()
     };
+
     ctx.reply(`➕ Давай добавим новое домашнее задание!\n\nНапиши предмет (например: "Математика") ✍️`);
 });
 

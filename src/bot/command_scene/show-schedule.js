@@ -4,7 +4,14 @@ import { prisma } from "../../db/prisma.js";
 export default function showSchedule(bot){
     bot.command("showschedule", async (ctx) => {
         try {
-            const user = await prisma.user.findUnique({where: {telegramId: BigInt(ctx.from.id)}})
+            const telegramId = BigInt(ctx.from.id)
+
+            const user = await prisma.user.findUnique({where: {telegramId: telegramId}})
+
+            if (!user){
+                ctx.reply("Не удалось найти тебя. Сначала используй команду /start")
+                return ctx.scene.leave()
+            };
 
             const schedule = await prisma.schedule.findMany({
                 where: {userId: user.id},

@@ -3,37 +3,33 @@ import { prisma } from "../../db/prisma.js";
 import queueMessage from "../featurs/sender.js";
 
 export default function remaindersOverdue(bot){
-    cron.schedule("* * * * 1", async () => {
+    cron.schedule("* 10 * * 1", async () => {
         try {
-            const users = await prisma.overdue.findMany({
-                include: {user: true}
-            })
+            const users = await prisma.user.findMany()
 
             for (const user of users){
-                const overdue = await prisma.user.findFirst({
-                    where: {id: user.userId},
-                    include: {overdue: true}
+                const overdues = await prisma.homework.findMany({
+                    where: {
+                        userId: user.id,
+                        overdue: true
+                    }
                 })
 
-                const overdues = overdue.overdue.map(item => ({...item}))
-
-                let message = `Привет, ${user.user.username || "ученик"} 👋\n\n`
+                let message = `Привет, ${user.username || "ученик"} 👋\n\n`
 
                 if (overdues.length > 0) {
                     message += `🕒 Просроченные задания:\n`
                     message += overdues.map((e, i) => `${i + 1}. ${e.subject}: ${e.text} (${e.deadline.getFullYear()}-${e.deadline.getMonth()+1}-${e.deadline.getDate()})`).join(`\n`)
                     message += `\n\nЯ верю что ты закроешь долги и будешь машиной 🚀`
-                    return queueMessage(bot, String(user.user.telegramId), message)
+                    return queueMessage(bot, String(user.telegramId), message)
                 }
                 else {
                     return
                 }
-
-                
             }
         }
         catch (err) {
-
+            return console.error("❌ Ошибка при рассылки просроченных заданий: ", err)
         }
     }, {timezone: "Europe/Moscow"});
 }

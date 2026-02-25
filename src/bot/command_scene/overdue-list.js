@@ -3,16 +3,25 @@ import { prisma } from "../../db/prisma.js"
 export default function overdueList(bot){
     bot.command("overdue", async (ctx) => {
         try {
+            const telegramId = BigInt(ctx.from.id)
+
             const user = await prisma.user.findUnique({
-                where: {telegramId: BigInt(ctx.from.id)},
-                include: {overdue: true}
+                where: {telegramId: telegramId}
             })
 
-            if (!user.overdue) {
-                return ctx.reply(`У тебя нет просроченных заданий 😎\nТы большой молодец, так держать 🚀`)
-            }
+            if (!user){
+                ctx.reply("Не удалось найти тебя. Сначала используй команду /start")
+                return ctx.scene.leave()
+            };
 
-            const overdues = user.overdue.map((e, i) => 
+            const overdue = await prisma.homework.findMany({
+                where: {
+                    userId: user.id,
+                    overdue: true
+                }
+            })
+
+            const overdues = overdue.map((e, i) => 
                 `${i+1}. ${e.subject}: ${e.text} ${e.done? "✅" : "❌"}`
             ).join(`\n`)
 

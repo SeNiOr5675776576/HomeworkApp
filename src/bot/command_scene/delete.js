@@ -4,7 +4,16 @@ import isValidDate from "../validation/valid-date.js";
 
 const deleteHomework = new Scenes.BaseScene("DELETE_HOMEWORK");
 
-deleteHomework.enter((ctx) => {
+deleteHomework.enter( async (ctx) => {
+    const telegramId = BigInt(ctx.from.id)
+
+    const user = await prisma.user.findUnique({where: {telegramId: telegramId}})
+
+    if (!user){
+        ctx.reply("Не удалось найти тебя. Сначала используй команду /start")
+        return ctx.scene.leave()
+    };
+
     ctx.reply("🗑️ Хочешь удалить задание?\n\nТогда напиши дату сдачи этого задания в формате ГГГГ-ММ-ДД ✍️")
 });
 

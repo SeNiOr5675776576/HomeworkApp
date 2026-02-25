@@ -5,7 +5,16 @@ import parseScheduleLine from "../parsing/parsing-schedule.js";
 
 const schedule = new Scenes.BaseScene("SCHEDULE");
 
-schedule.enter((ctx) => {
+schedule.enter( async (ctx) => {
+    const telegramId = BigInt(ctx.from.id)
+
+    const user = await prisma.user.findUnique({where: {telegramId: telegramId}})
+
+    if (!user){
+        ctx.reply("Не удалось найти тебя. Сначала используй команду /start")
+        return ctx.scene.leave()
+    };
+
     ctx.session.schedule = [];
     return ctx.reply(`📘 Давай запишем твоё расписание!\nЯ буду спрашивать тебя по дням недели.\n\n✍️ Напиши задание на понедельник в формате:\n"Понедельник: математика 8:00, русский 9:00, ..."`)
 });

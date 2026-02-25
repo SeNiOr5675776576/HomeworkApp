@@ -3,7 +3,16 @@ import { prisma } from "../../db/prisma.js";
 
 const setting = new Scenes.BaseScene("SETTING");
 
-setting.enter((ctx) => {
+setting.enter( async (ctx) => {
+    const telegramId = BigInt(ctx.from.id)
+
+    const user = await prisma.user.findUnique({where: {telegramId: telegramId}})
+
+    if (!user){
+        ctx.reply("Не удалось найти тебя. Сначала используй команду /start")
+        return ctx.scene.leave()
+    };
+
     return ctx.reply(`⚙️ Давай настроим напоминания о домашнем задании и расписании, чтобы ты фокусировался только на учёбе 😁\n\nХочешь ли ты получать напоминания о расписании? (Да / Нет) ✍️`)
 })
 

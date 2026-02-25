@@ -2,7 +2,7 @@ import cron from 'node-cron';
 import { prisma } from '../../db/prisma.js';
 
 export default function checkOverdue(bot){
-    cron.schedule("* 1 * * *", async () => {
+    cron.schedule("3 13 * * *", async () => {
         try {
             const now = new Date()
             const nowDate = `${now.getFullYear()}-${now.getMonth()+1}-${now.getDate()}`
@@ -13,8 +13,10 @@ export default function checkOverdue(bot){
             
             for (const user of users) {
                 const homeworks = await prisma.homework.findMany({
-                    where: {userId: user.id},
-                    overdue: false, 
+                    where: {
+                        userId: user.id,
+                        overdue: false
+                    },
                 })
 
                 for (const homework of homeworks){

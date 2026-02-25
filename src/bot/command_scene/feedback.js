@@ -3,7 +3,16 @@ import { prisma } from "../../db/prisma.js";
 
 const feedback = new Scenes.BaseScene("FEEDBACK");
 
-feedback.enter((ctx) => {
+feedback.enter( async (ctx) => {
+    const telegramId = BigInt(ctx.from.id)
+
+    const user = await prisma.user.findUnique({where: {telegramId: telegramId}})
+
+    if (!user){
+        ctx.reply("Не удалось найти тебя. Сначала используй команду /start")
+        return ctx.scene.leave()
+    };
+
     ctx.reply(`📝 Напиши отзыв о боте. Что нравится? Что нужно улучшить?`)
 })
 

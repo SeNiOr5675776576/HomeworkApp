@@ -4,7 +4,16 @@ import isValidDate from "../validation/valid-date.js";
 
 const doneHomework = new Scenes.BaseScene("DONE_HOMEWORK");
 
-doneHomework.enter((ctx) => {
+doneHomework.enter( async (ctx) => {
+    const telegramId = BigInt(ctx.from.id)
+
+    const user = await prisma.user.findUnique({where: {telegramId: telegramId}})
+
+    if (!user){
+        ctx.reply("Не удалось найти тебя. Сначала используй команду /start")
+        return ctx.scene.leave()
+    };
+
     ctx.reply("🎯 Давай пометим задание как выполненное!\n\nДля этого напиши дату сдачи задания в формате ГГГГ-ММ-ДД ✍️")
 });
 

@@ -3,12 +3,19 @@ import { prisma } from "../../db/prisma.js";
 export default function listHomework(bot){
     bot.command("list", async (ctx) => {
         try {
+            const telegramId = BigInt(ctx.from.id)
+
             const user = await prisma.user.findUnique({
-                where: {telegramId: BigInt(ctx.from.id)},
+                where: {telegramId: telegramId},
                 include: {homework: true},
             })
 
-            if (!user || user.homework.length == 0){
+            if (!user){
+                ctx.reply("Не удалось найти тебя. Сначала используй команду /start")
+                return ctx.scene.leave()
+            };
+
+            if (user.homework.length == 0){
                 return ctx.reply("У тебя нет домашних заданий 😎")
             }
 
