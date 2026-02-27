@@ -2,7 +2,7 @@ import cron from 'node-cron';
 import { prisma } from '../../db/prisma.js';
 
 export default function checkOverdue(bot){
-    cron.schedule("3 13 * * *", async () => {
+    cron.schedule("* 1 * * *", async () => {
         try {
             const now = new Date()
             const nowDate = `${now.getFullYear()}-${now.getMonth()+1}-${now.getDate()}`
