@@ -3,7 +3,7 @@ import { prisma } from "../../db/prisma.js";
 import queueMessage from "../featurs/sender.js";
 
 export default function remaindersOverdue(bot){
-    cron.schedule("* 10 * * 1", async () => {
+    cron.schedule("* 7 * * 1", async () => {
         try {
             const users = await prisma.user.findMany()
 

@@ -6,7 +6,7 @@ export default function remaindersSchedule(bot){
     cron.schedule("* * * * *", async () => {
         try {
             const now = new Date()
-            const nowTime = `${now.getHours()}:${now.getMinutes()}`
+            const nowTime = `${now.getHours()-3}:${now.getMinutes()}`
 
             const users = await prisma.setting.findMany({
                 where: {

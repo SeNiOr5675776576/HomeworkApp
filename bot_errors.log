@@ -278,3 +278,10 @@
     at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 
+[2026-02-25T15:07:15.143Z] [unhandledRejection] Error: 409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+    at Telegram.callApi (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async [Symbol.asyncIterator] (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/polling.js:30:33)
+    at async Polling.loop (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/polling.js:73:30)
+    at async Telegraf.launch (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/telegraf.js:194:13)
+
