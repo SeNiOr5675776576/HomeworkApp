@@ -285,3 +285,523 @@
     at async Polling.loop (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/core/network/polling.js:73:30)
     at async Telegraf.launch (/Users/kvasnevdanila/Documents/HWA/HomeworkApp/node_modules/telegraf/lib/telegraf.js:194:13)
 
+[2026-03-25T19:19:57.778Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/getMe failed, reason: read ECONNRESET
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-03-25T19:19:57.782Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/setMyCommands failed, reason: read ECONNRESET
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-03-25T19:20:16.883Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: read ECONNRESET
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-03-25T19:20:16.886Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: read ECONNRESET
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-03-25T19:20:36.008Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: read ECONNRESET
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-03-25T19:20:36.010Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: read ECONNRESET
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-03-25T19:20:55.111Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: read ECONNRESET
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-03-25T19:20:55.126Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: read ECONNRESET
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-03-25T19:24:35.759Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/getMe failed, reason: read ECONNRESET
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-03-25T19:24:35.762Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/setMyCommands failed, reason: read ECONNRESET
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-03-25T19:29:04.439Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/getMe failed, reason: read ECONNRESET
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-03-25T19:29:04.441Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/setMyCommands failed, reason: read ECONNRESET
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-03-25T19:29:23.537Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: read ECONNRESET
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-03-25T19:29:23.552Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: read ECONNRESET
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:03:53.275Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/setMyCommands failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:03:53.280Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/getMe failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:04:14.326Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:04:14.328Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:04:35.379Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:04:35.381Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:04:56.421Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:04:56.424Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:05:17.459Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:05:17.474Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:05:38.496Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:05:38.520Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:05:59.529Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:05:59.545Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:06:20.563Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:06:20.578Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:06:41.604Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:06:41.619Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:07:02.639Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:07:02.654Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:07:23.673Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:07:23.689Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:08:02.590Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/getMe failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:08:02.593Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/setMyCommands failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:08:23.622Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:08:23.626Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:08:44.668Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:08:44.673Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:09:05.720Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:09:05.722Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:09:48.385Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/setMyCommands failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:09:48.388Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/getMe failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:10:09.426Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:10:09.428Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:10:30.464Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:10:30.466Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:10:51.489Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
+[2026-04-17T18:10:51.491Z] [unhandledRejection] FetchError: request to https://api.telegram.org/bot8237748758:[REDACTED]/sendMessage failed, reason: connect ETIMEDOUT 149.154.166.110:443
+    at ClientRequest.<anonymous> (C:\Users\Danila\Documents\HW\HomeworkApp\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
